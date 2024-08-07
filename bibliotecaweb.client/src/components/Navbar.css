@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+    .navbar-links button,
+    .navbar-links a {
+        margin: 0 0.5rem;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+.navbar-username {
+    margin-right: 1rem;
+    font-weight: bold; /* Ejemplo de estilo adicional */
+}

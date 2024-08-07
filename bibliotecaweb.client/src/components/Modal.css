@@ -1,0 +1,76 @@
+/* src/styles.css */
+
+/* Estilos para el modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el modal esté sobre otros elementos */
+}
+
+.modal-content {
+    background: #333; /* Fondo oscuro para el contenido del modal */
+    color: #fff; /* Texto blanco para contraste */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+    width: 90%;
+    max-width: 500px; /* Ancho máximo del modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4d4d; /* Rojo claro para el botón de cierre */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.modal-close:hover {
+    background: #ff0000; /* Rojo más oscuro al pasar el ratón */
+}
+
+/* Nuevos estilos para las etiquetas dentro del modal */
+.modal-content label {
+    color: #424242; /* Color gris claro para las etiquetas */
+    display: block; /* Asegura que cada etiqueta esté en una línea separada */
+    margin-bottom: 10px; /* Espacio debajo de cada etiqueta */
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="number"],
+.modal-content input[type="checkbox"] {
+    width: 100%; /* Hace que los campos de entrada ocupen todo el ancho disponible */
+    padding: 8px;
+    margin-top: 5px; /* Espacio entre la etiqueta y el campo de entrada */
+    border: 1px solid #555; /* Borde gris para los campos de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+    background: #444; /* Fondo oscuro para los campos de entrada */
+    color: #fff; /* Texto blanco para los campos de entrada */
+}
+
+.modal-content input[type="checkbox"] {
+    width: auto; /* Ajusta el ancho del checkbox */
+    margin-right: 5px; /* Espacio a la derecha del checkbox */
+}
+
+.modal-content p {
+    margin: 0;
+}
+

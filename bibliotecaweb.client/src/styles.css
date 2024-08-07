@@ -1,0 +1,254 @@
+/* src/styles.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+nav {
+    background-color: #333;
+}
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+
+        nav ul li {
+            margin: 0;
+        }
+
+            nav ul li a {
+                display: block;
+                padding: 1rem 2rem;
+                color: #fff;
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+            }
+
+                nav ul li a:hover {
+                    background-color: #575757;
+                }
+
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+.card-content {
+    padding: 1rem;
+}
+
+    .card-content h2 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .card-content p {
+        margin: 0.5rem 0;
+    }
+
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+/* Formularios */
+form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    form label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    form input,
+    form textarea,
+    form select {
+        width: 100%;
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    form button {
+        width: 100%;
+        padding: 0.75rem;
+    }
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+    .table thead {
+        background-color: #343a40;
+        color: #ffffff;
+    }
+
+    .table th, .table td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .table tr:hover {
+        background-color: #e9ecef;
+    }
+
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.navbar {
+    background: #333; 
+    padding: 10px 20px; 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-bottom: 2px solid #444;
+}
+
+    .navbar a {
+        color: #fff; 
+        text-decoration: none; 
+        margin: 0 10px; 
+        font-size: 16px; 
+    }
+
+        .navbar a:hover {
+            color: #007bff; 
+            text-decoration: underline; 
+        }
+
+    .navbar .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar .user-info {
+        display: flex;
+        align-items: center;
+        margin-left: auto; 
+    }
+
+        .navbar .user-info .username {
+            margin-right: 10px; 
+            font-weight: bold;
+        }
+
+        .navbar .user-info .logout-button {
+            background: #ff4d4d;
+            color: #fff; 
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+            .navbar .user-info .logout-button:hover {
+                background: #ff0000;
+            }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .navbar .menu {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .navbar a {
+            margin: 5px 0; 
+        }
+}
+
+
+
+
