@@ -4,13 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "bibliotecaweb.client", "bibliotecaweb.client\bibliotecaweb.client.esproj", "{6D59B69C-FAC3-45FF-888E-9B6FACF3140B}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7201C5BB-BDBE-4284-8E10-5E2333244287} = {7201C5BB-BDBE-4284-8E10-5E2333244287}
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaAPI", "..\BibliotecaAPI_C\BibliotecaAPI\BibliotecaAPI.csproj", "{7201C5BB-BDBE-4284-8E10-5E2333244287}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaAPI.Tests", "BibliotecaAPI.Tests\BibliotecaAPI.Tests.csproj", "{6CF068A5-E66B-42CC-B06B-C3C8C62A9E14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaAPI", "BibliotecaAPI\BibliotecaAPI.csproj", "{61A0178C-3BC4-4445-9692-BC819E65071A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,14 +21,14 @@ Global
 		{6D59B69C-FAC3-45FF-888E-9B6FACF3140B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D59B69C-FAC3-45FF-888E-9B6FACF3140B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6D59B69C-FAC3-45FF-888E-9B6FACF3140B}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{7201C5BB-BDBE-4284-8E10-5E2333244287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7201C5BB-BDBE-4284-8E10-5E2333244287}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7201C5BB-BDBE-4284-8E10-5E2333244287}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7201C5BB-BDBE-4284-8E10-5E2333244287}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CF068A5-E66B-42CC-B06B-C3C8C62A9E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CF068A5-E66B-42CC-B06B-C3C8C62A9E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CF068A5-E66B-42CC-B06B-C3C8C62A9E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CF068A5-E66B-42CC-B06B-C3C8C62A9E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A0178C-3BC4-4445-9692-BC819E65071A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A0178C-3BC4-4445-9692-BC819E65071A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A0178C-3BC4-4445-9692-BC819E65071A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A0178C-3BC4-4445-9692-BC819E65071A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
