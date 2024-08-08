@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import { API_URL } from '.apiEndpoints'; 
+import { API_URL } from './apiEndpoints' 
 
 const instance = axios.create({
     baseURL: API_URL, 
